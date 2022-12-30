@@ -50,7 +50,7 @@ class AuthorizeViewController: UIViewController, WKNavigationDelegate, WKScriptM
 
     
     func loadSource() {
-        let request = URLRequest.init(url: URL(string: "http://193.169.0.227:8080")!)
+        let request = URLRequest.init(url: URL(string: "https://open.viatomtech.com.cn/auth/#/?sign=un1j7v6WKyTbWyVdGP/nFw==")!)
         
         webView.load(request)
     }
